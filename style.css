@@ -1,0 +1,225 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+            background-image: url('./img/josh-hild.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 100vh;
+        }
+
+            #d7 {
+
+                width: 99%;
+                height: 200px;
+                background-image: url(./img/Realistic_Cloud.png);
+                background-size: 100% 100%;
+                border-radius: 10%;
+                position: absolute;
+                animation-name: sky;
+                animation-duration: 130s;
+                animation-iteration-count: infinite;
+
+
+                }
+
+                @keyframes sky {
+            0%{
+                left: -40%;
+                top: 0;
+            }
+            100%{
+            left: 60%;
+            top: 0%;    
+
+            }
+              
+         }
+
+        #d2{
+
+            width: 99%;
+            height: 200px;
+            background-image: url(./img/Realistic_Cloud.png);
+            background-size: 100% 100%;
+            border-radius: 10%;
+            position: absolute;
+            animation-name: sky;
+            animation-duration: 80s;
+            animation-iteration-count: infinite;
+            
+            
+        }
+
+       
+         @keyframes sky {
+            0%{
+                left: -40%;
+                top: 0;
+            }
+            100%{
+            left: 60%;
+            top: 0%;    
+
+            }
+            
+            
+         }
+         
+
+         #d1{
+            width: 200px;
+            height: 150px;
+            left: 45%;
+            margin-top: 10px;
+            background-image: url(./img/sun.png);
+            background-size: 100% 100%;
+            border-radius: 10%;
+            position: absolute;
+            animation-name: sun;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+
+         }
+         #d3{
+
+            width: 99%;
+             height: 200px;
+            background-image: url(./img/Realistic_Cloud.png);
+            background-size: 100% 100%;
+            border-radius: 10%;
+            position: absolute;
+            animation-name: sky2;
+            animation-duration: 78s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+         }
+         @keyframes sky2 {
+            0%{
+                left: 90%;
+                top: 0;
+            }
+            100%{
+            left: -60%;
+            top: 0%;    
+
+            }
+        }
+        #d4{
+
+width: 99%;
+ height: 200px;
+background-image: url(./img/Realistic_Cloud.png);
+background-size: 100% 100%;
+border-radius: 10%;
+position: absolute;
+animation-name: sky3;
+animation-duration: 90s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes sky3 {
+0%{
+    left: 80%;
+    top: 10%;
+}
+100%{
+left: -60%;
+top: 10%;    
+
+}
+}
+
+#d5{
+    background-image:url(./img/road.jpg);
+    height: 10%;
+    width:102%;
+    position: absolute;
+    top: 91%;
+    left: -1%;
+    
+}
+
+#d6{
+    width: 53%;
+ height: 70%;
+background-image: url(./img/moving\ car.gif); 
+background-size: 100% 100%;
+border-radius: 10%;
+position: absolute;
+animation-name:car ;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+    
+
+}
+@keyframes car {
+0%{
+    left: 2000%;
+    top: 48%;
+}
+100%{
+left: -50%;
+top: 48%;    
+
+}
+}
+
+#d8{
+height: 20%;
+width: 40%;
+border-radius: 100px;
+background-color: transparent;
+position: absolute;
+animation-name:ki ;
+animation-iteration-count: infinite;
+margin-top: 10%;
+font-size: 200%;
+animation: ki 7s forwards;
+
+
+
+}
+@keyframes ki {
+0%, 50%{
+    left: 92%;
+    top: 15%;
+    opacity: 0%;  
+}
+100%{
+left: 37%;
+top: 15%; 
+
+
+}
+}
+ 
+#d9{
+height: 20%;
+width: 40%;
+border-radius: 100px;
+background-color: transparent;
+position: absolute;
+animation-name:ha ;
+animation-iteration-count: infinite;
+margin-top: 10%;
+font-size: 200%;
+animation: ha 8s forwards;
+
+
+
+}
+@keyframes ha {
+0%, 50%{
+    left: 41%;
+    top: 25%;
+    opacity: 0%;  
+}
+100%{
+left: 41%;
+top: 25%; 
+
+
+}
+}
